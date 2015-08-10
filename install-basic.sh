@@ -7,7 +7,7 @@ cd "${DIR}"
 git submodule update --init --recursive --remote
 cd -
 
-ln -s -f "${DIR}/_vimrc"  "${HOME}/_vimrc"
+ln -s -f "${DIR}/_nvimrc"  "${HOME}/_nvimrc"
 
-vim +NeoBundleInstall +qall
+vim +PlugInstall +qall
 
