@@ -1,6 +1,5 @@
 /runtime/**
 !/runtime/bundle/.dummy
-!/runtime/bundle/vim-plug/
 !/runtime/caches/tags/.dummy
 !/runtime/aux/swap/.dummy
 !/runtime/aux/backup/.dummy
