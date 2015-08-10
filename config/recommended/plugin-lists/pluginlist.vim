@@ -2,7 +2,7 @@
 Plug 'jnurmine/Zenburn'
 
 " general-purpose plugins
-Plug 'Pyrohh/vim-togglelist'
+Plug 'saaguero/vim-togglelist'
 Plug 'szw/vim-maximizer'
 Plug 'jpalardy/vim-slime'
 Plug 'scrooloose/nerdtree'
@@ -17,7 +17,7 @@ Plug 'vim-pandoc/vim-pandoc-syntax'
 
 Plug 'benekastah/neomake'
 
-Plug 'Shougo/deocomplete.vim'
+Plug 'Shougo/deoplete.nvim'
 Plug 'Shougo/neosnippet.vim'
 Plug 'Shougo/neosnippet-snippets'
 
