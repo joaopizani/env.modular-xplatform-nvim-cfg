@@ -1,4 +1,0 @@
-[submodule "vim-plug"]
-	path = runtime/bundle/vim-plug
-	url = git@github.com:junegunn/vim-plug.git
-	branch = master
