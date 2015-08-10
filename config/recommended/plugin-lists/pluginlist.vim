@@ -22,4 +22,4 @@ Plug 'Shougo/neosnippet.vim'
 Plug 'Shougo/neosnippet-snippets'
 
 " LaTeX
-Plug "LaTeX-Box-Team/LaTeX-Box"
+Plug 'LaTeX-Box-Team/LaTeX-Box'
