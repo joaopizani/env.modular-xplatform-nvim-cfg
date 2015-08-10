@@ -1,39 +1,26 @@
-NeoBundleFetch 'Shougo/neobundle.vim'
-
-NeoBundle 'Shougo/vimproc', {
-\    'build': {
-\        'windows': 'make -f make_mingw32.mak',
-\        'cygwin' : 'make -f make_cygwin.mak',
-\        'mac' : 'make -f make_mac.mak',
-\        'unix': 'make -f make_unix.mak',
-\    },
-\}
-
 " colorschemes
-NeoBundle 'altercation/vim-colors-solarized'
-NeoBundle 'jnurmine/Zenburn'
+Plug 'altercation/vim-colors-solarized'
+Plug 'jnurmine/Zenburn'
 
 " general-purpose plugins
-NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'mbbill/undotree'
-NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'kien/ctrlp.vim'
-NeoBundle 'szw/vim-maximizer'
-NeoBundle 'Pyrohh/vim-togglelist'
-NeoBundle 'jpalardy/vim-slime'
-NeoBundle 'tomtom/tcomment_vim'
-NeoBundle 'junegunn/vim-easy-align'
-NeoBundle 'bling/vim-airline'
-NeoBundle 'vim-pandoc/vim-pandoc'
-NeoBundle 'vim-pandoc/vim-pandoc-syntax'
-NeoBundle 'Shougo/neocomplete.vim'
-NeoBundle 'Shougo/neosnippet.vim'
-NeoBundle 'Shougo/neosnippet-snippets'
+Plug 'Pyrohh/vim-togglelist'
+Plug 'szw/vim-maximizer'
+Plug 'jpalardy/vim-slime'
+Plug 'scrooloose/nerdtree'
+Plug 'mbbill/undotree'
+Plug 'bling/vim-airline'
+Plug 'tomtom/tcomment_vim'
+Plug 'junegunn/vim-easy-align'
+Plug 'tpope/vim-fugitive'
 
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-pandoc/vim-pandoc-syntax'
 
-" plugins for programming (language-independent)
-NeoBundle 'xolox/vim-misc'
-NeoBundle 'scrooloose/syntastic'
+Plug 'benekastah/neomake'
+
+Plug 'Shougo/deocomplete.vim'
+Plug 'Shougo/neosnippet.vim'
+Plug 'Shougo/neosnippet-snippets'
 
 " LaTeX
-NeoBundle "LaTeX-Box-Team/LaTeX-Box"
+Plug "LaTeX-Box-Team/LaTeX-Box"
