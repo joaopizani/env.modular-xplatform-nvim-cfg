@@ -7,6 +7,5 @@
 let $VIM_AUXDIR = expand("$VIM_ROOT") . '/runtime/aux'
 
 
-set nocompatible
 filetype plugin indent on
 
