@@ -4,7 +4,7 @@
 " you can just avoid using these (few) mappings.
 
 
-let $VIM_AUXDIR = expand("$VIM_ROOT") . '/runtime/aux'
+let $NVIM_AUXDIR = expand("$NVIM_ROOT") . '/runtime/aux'
 
 
 filetype plugin indent on
