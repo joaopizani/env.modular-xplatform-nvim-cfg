@@ -11,7 +11,7 @@ au BufWinLeave *.* silent! mkview    " make vim save view (state) (folds, cursor
 au BufWinEnter *.* silent! loadview  " make vim load view (state) (folds, cursor, etc)
 
 function! InitializeDirectories()
-    let parent = expand("$VIM_AUXDIR")
+    let parent = expand("$NVIM_AUXDIR")
     let dir_list = {'backup': 'backupdir', 'views': 'viewdir', 'swap': 'directory'}
     if has('persistent_undo')
         let dir_list['undo'] = 'undodir'
