@@ -1,5 +1,4 @@
 " colorschemes
-Plug 'altercation/vim-colors-solarized'
 Plug 'jnurmine/Zenburn'
 
 " general-purpose plugins
