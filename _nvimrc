@@ -1,0 +1,2 @@
+let $NVIM_ROOT = fnamemodify(resolve(expand("<sfile>")), ":p:h")
+source $NVIM_ROOT/config/nvimrc.vim
