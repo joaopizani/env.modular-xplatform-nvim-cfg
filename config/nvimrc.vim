@@ -14,10 +14,11 @@ for f in glob(expand("$NVIM_CFG_EXT") . '/*/simple-cfgs/*.vim', 1, 1) | exe 'sou
 
 
 " detects whether the vimplug plugin manager is present and loads plugins and respective configs
-let s:vimplug_present = filereadable(expand("$NVIM_BUNDLES") . "/vim-plug/README.md")
+let $VIMPLUG_BOOTSTRAP_FILE = expand("$NVIM_BUNDLES") . "/plug.vim"
+let s:vimplug_present = filereadable(expand("$VIMPLUG_BOOTSTRAP_FILE"))
 
 if(s:vimplug_present)
-    if has('vim_starting') | set rtp+=$NVIM_BUNDLES/vim-plug/ | endif
+    if has('vim_starting') | exe 'source' expand("$VIMPLUG_BOOTSTRAP_FILE") | endif
 
     call plug#begin(expand('$NVIM_BUNDLES/'))
 
