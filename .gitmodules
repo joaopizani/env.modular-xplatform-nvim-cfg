@@ -1,4 +1,4 @@
 [submodule "haskell-vim-master"]
 	path = config/extra/10-haskell
-	url = git@github.com:joaopizani/env.haskell-vim-cfgs.git
+	url = git@github.com:joaopizani/env.haskell-nvim-cfgs.git
 	branch = master
